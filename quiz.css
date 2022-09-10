@@ -1,0 +1,87 @@
+#pasek{
+    width:100vw;
+    height:10vw;
+    background-color: black;
+    
+    margin-bottom:230px;
+    
+}
+#blacw{
+    position:relative;
+
+width:40%;
+top:-4vw;
+
+float: left;
+}
+#tytul{
+    font-size:4vw;
+    position: relative;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    top:1.5vw;
+    left:-10vw;
+    
+}
+.prt{
+    float:right;
+    border:none;
+    background-color: white;
+    color:blue;
+}
+#test{
+    position: relative;
+    display:flex;
+    padding:0.3em 1.2em;
+    /* margin:0 0.3em 0.3em 0; */
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    
+    margin:0 auto;
+
+
+}
+#mono{
+    position: flex;
+    /* top:2vw; */
+    
+    left:59vw;
+    margin:0 auto;
+    width:10vw;
+    min-width:170px;
+}
+
+@media  screen and (max-width: 700px){
+    #pasek {
+        height: 20vw;
+        
+        margin-bottom: 90px;
+    }
+    #blacw{
+        width:70%;
+    }
+    #tytul{
+        top:6vw;
+        font-size:5vw;
+    }
+    
+    
+    
+       
+       
+      
+        
+      
+        }
+
+#nauk{
+
+    text-align: center;
+}

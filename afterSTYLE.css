@@ -1,0 +1,256 @@
+body{
+    overflow-x: hidden;
+    
+      
+      background-image: radial-gradient(rgb(173, 170, 170)1.5px, transparent 0);
+      background-size: 20px 20px;
+      background-position: -19px -19px;
+      
+        min-height: 100%;
+    
+        
+      
+    }
+#maincontainer{
+     width:70vw;
+     background-color: white;
+     height:350vmax;
+     
+     margin-left:auto;
+    margin-right: auto;
+    
+
+
+}
+#polka{
+    
+  background-color: #00458C;
+    
+    width: 70vw;
+    min-height:4vw;
+    max-height: 35px;
+    margin:auto;
+}
+#yt{
+    
+  width:5vw;
+  height:auto;
+position: relative;
+left:45vw;
+cursor:pointer;
+max-width: 50px;
+
+}
+#fb{
+  
+width:4vw;
+height:auto;
+position: relative;
+left:48vw;
+cursor:pointer;
+max-width: 50px;
+
+}
+#insta{
+  
+width:5vw;
+height:auto;
+position: relative;
+left:50vw;
+cursor:pointer;
+max-width: 50px;
+}
+#fbanner{
+    
+
+  height:15vw;
+  width: 70vw;
+  margin:auto;
+  background-image: linear-gradient(rgb(129, 114, 87), white);
+  
+  }
+#logo{
+width:50%;
+
+
+position:relative;
+float: left;
+
+
+
+
+
+}
+
+#ban{
+  font-size:4vw;
+  position:absolute;
+  font-weight:600;
+  color:lightgray;
+  right:17vw;
+  top:3vh;
+  font-family: 'Roboto', sans-serif;
+  margin-top:50px;
+  
+  
+  }
+  #pdbn{
+  position:absolute; 
+  top:5vw;
+  right:18vw;
+  font-family: 'Roboto', sans-serif;
+  font-size:2.5vw;
+  font-weight:600;
+  color:rgb(78, 117, 209);
+  margin-top:80px;
+  }
+
+
+#menu{
+position: absolute;
+height:90px;
+top:220px;
+background-color:#d4ebf2;
+margin-top: 22px;
+width:100%;
+
+}
+
+
+
+
+
+  #quizz{
+    width:33vw;
+    height: 15vw;
+    box-shadow:0px 3px 12px 6px rgb(103, 93, 211);
+    min-width:250px;
+    min-height:110px;
+  }
+
+  #linia{
+    position: relative;
+border-left:2px solid rgb(168, 167, 167);
+height:50%;
+margin-left:40%;
+
+top:-90%;
+
+
+
+  }
+
+  @media screen and (max-width:800px){
+    #linia{
+      top:-100%;
+    }
+  }
+  @media screen and (max-width:600px){
+    #linia{
+      top:-67%;
+    }
+  }
+
+  #num{
+    
+    font-size: 9vw;
+    color:#45DD97;
+    
+    width:4vw;
+    display: inline;
+    padding-top: 20px;
+  }
+  #min{
+    /* background-color: blue; */
+    width:6vw;
+    font-weight:800;
+    color:#45DD97;
+    
+    
+  }
+  .same{
+    display: inline;
+    
+    
+  }
+  #pod{
+    position: relative;
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: 800;
+    /* font-size: 1.3vw; */
+    font-size: calc(4px + 1vw);
+    color:#45DD97;
+    padding-left:10px;
+  top:-1vw;
+    width:11vw;
+    min-width: 100px;
+  }
+  #sprawdz{
+    float:right;
+    font-family: 'Roboto', sans-serif;
+    color:rgb(99, 101, 99);
+    font-weight:600;
+    font-size:calc(11px + 1vw);
+    line-height: 100%;
+    width:96%;
+   
+    
+  }
+
+  #once{
+
+    
+    border-radius: 1em;
+    background-color: #45DD97;
+    color:white;
+    border:none;
+    width:70%;
+    height:59%;
+    font-size:3vw;
+    text-align: center;
+   
+    margin-left: 2vw;
+    /* padding-bottom:0.7vw; */
+    
+  }
+
+  #frline{
+    /* margin:auto; */
+    margin:auto;
+      background-color:rgb(199, 199, 199);
+      height:2px;
+    }
+ 
+
+  @media screen and (max-width: 600px){
+#ban{
+  top:-3.5vw;
+  right:20vw;
+}
+#pdbn{
+  top:-3.5vw;
+  right:20vw;
+}
+
+  }
+
+
+  @media screen and (max-width:700px){
+   
+    
+    #imielem{
+      margin-bottom: -5vw;
+    }
+   
+    #podpis{
+      margin-top: -5vw;
+
+    }
+    #frline{
+      margin-top: -15vw;
+      margin-bottom: -5vw;
+
+    }
+  }
+
+  

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+    <link rel="stylesheet" href="quiz.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>QUIZ</title>
+    
+  </head>
+
+<div id="pasek">
+  
+
+<img src="Blacw.png" id="blacw"/>
+<h1 id="tytul"> quick-QUIZ</h1>
+
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <p class="h1 " id="nauk" >Test wiedzy naukowej</p>
+    </div>
+  </div>
+  <div class="row mt-5" style="width:38vw; height:8vw; border-style: solid; min-width:350px; min-height:100px;margin-left:auto;
+  margin-right:auto;  ">
+    <div class="col" ><b>Najbliższy ziemi układ słoneczny to Alfa Centauri?</b>
+      <button onclick="Check()" type="button" class="prt" id="btn">SHOW</button>
+      <div>
+      </br>
+        <label for="popr1">Prawda</label>
+        <input type="radio" name="alfa" id="popr1">
+        <label for="false1">Fałsz</label>
+      <input type="radio" name="alfa" id="false1">
+    </div>
+    </div>
+   
+    
+    </div>
+    <div class="row" id="odpo" style="width:38vw; height:8vw; border-style: solid; min-width:350px;min-height:100px; margin-left:auto;
+    margin-right:auto; background-color: rgb(220, 220, 220); border-top: none; display: none; ">
+      <div class="col"  >Alfa Centauri to odległy o 4.24 lata świetlne układ słoneczny, z trzema planetami i czerwonym karłem-Gwiazdą 
+        Proxima Centauri. </div>
+      
+      </div>
+      <div class="row mt-5" style="width:38vw; height:8vw; border-style: solid; min-width:350px; min-height:100px;margin-left:auto;
+      margin-right:auto; border-bottom: none; border-bottom: solid; ">
+        <div class="col" ><b>Polacy złamali szyfr enigmy?</b>
+          <button onclick="Check2()" type="button" class="prt" id="btn1" >SHOW</button>
+          <div>
+          </br>
+            <label for="popr2">Prawda</label>
+            <input type="radio" name="beta" id="popr2">
+            <label for="false2">Fałsz</label>
+          <input type="radio" name="beta" id="false2">
+        </div>
+        </div>
+        
+        </div>
+      <div class="row" id="odpo1" style="width:38vw; height:8vw; border-style: solid; min-width:350px;min-height:100px; margin-left:auto;
+      margin-right:auto; background-color: rgb(220, 220, 220);border-top: none; display: none;">
+        <div class="col" >Anglicy kontynuowali prace polskich matematyków. Polakom zabrakło mocy obliczeniowej komputerów, aby 
+          kontynuuować łamanie szyfrów.
+        </div>
+        
+        </div>
+        <div class="row mt-5" style="width:38vw; height:8vw; border-style: solid; min-width:350px; min-height:100px;margin-left:auto;
+        margin-right:auto; border-bottom: none; border-bottom: solid;  ">
+          <div class="col" ><b>Czy komputer kwantowy istnieje?</b>
+          <button onclick="Check3()" type="button" class="prt" id="btn2" >SHOW</button>
+          <div>
+          </br>
+            <label for="popr3">Prawda</label>
+            <input type="radio" name="gama" id="popr3">
+            <label for="false3">Fałsz</label>
+          <input type="radio" name="gama" id="false3">
+        </div>
+          
+          </div>
+          </div>
+        <div class="row" id="odpo2" style="width:38vw; height:8vw; border-style: solid; min-width:350px;min-height:100px; margin-left:auto;
+        margin-right:auto;background-color: rgb(220, 220, 220);display: none; border-top: none; ">
+          <div class="col" >Istnieja pewne prototypy, jednak nie są to doskonałe maszyny kwantowe. Kiedy jednak powstaną 
+            będą niezwykle przydatne dla ludzkości.
+          </div>
+          
+          </div>
+          <div class="row mt-5"style="width:38vw; height:8vw; border-style: solid; min-width:350px; min-height:100px;margin-left:auto;
+          margin-right:auto;border-bottom: solid;   ">
+            <div class="col" ><b>Czy elektryczność została wymyślona?</b>
+            <button onclick="Check4()" type="button" class="prt" id="btn3" >SHOW</button>
+            <div>
+            </br>
+              <label for="popr4">Prawda</label>
+              <input type="radio" name="delta" id="popr4">
+              <label for="false4">Fałsz</label>
+            <input type="radio" name="delta" id="false4">
+          </div>
+            
+            </div>
+            </div>
+          <div class="row" id="odpo3" style="width:38vw; height:8vw; border-style: solid; min-width:350px;min-height:100px; margin-left:auto;
+          margin-right:auto; background-color: rgb(220, 220, 220);display: none; border-top: none;">
+            <div class="col" >Prąd elektryczny jest to sposób przekazywania energii, zjawisko to jest wszechobecne w kosmosie.</div>
+            </div>
+            
+            <div class="row mt-5" style="width:38vw; height:8vw; border-style: solid; min-width:350px; min-height:100px;margin-left:auto;
+            margin-right:auto; border-bottom: solid;  ">
+              <div class="col" ><b>Czy istnieje życie poza ziemią?</b>
+              <button onclick="Check5()" type="button" class="prt" id="btn4" >SHOW</button>
+              <div>
+              </br>
+                <label for="popr5">Prawda</label>
+                <input type="radio" name="omega" id="popr5">
+                <label for="false5">Fałsz</label>
+              <input type="radio" name="omega" id="false5">
+            </div>
+              </div>
+              </div>
+            <div class="row" id="odpo4" style="width:38vw; height:8vw; border-style: solid; min-width:350px;min-height:100px; margin-left:auto;
+            margin-right:auto; background-color: rgb(220, 220, 220); display: none; border-top:none;">
+              <div class="col" >Każdy ma swoją opinie, ciężko o twarde dowody. Jednak dlaczego jest tyle miejsca w kosmosie?</div>
+              </div>
+              
+              
+                
+                </div>
+                <div>
+                  <h1 id="mono"></h1>
+                <button onclick="Wynik()" type="button" id="test" >SPRAWDZ WYNIK</button>
+                
+                
+              </div>
+
+<script type="text/javascript">
+  function Wynik(){
+
+let y=0;
+if(document.getElementById('popr1').checked)
+{
+ y++;
+}
+if(document.getElementById('popr2').checked)
+{
+  y++;
+}
+
+if(document.getElementById('popr3').checked)
+{
+  y++;
+}
+
+if(document.getElementById('popr4').checked)
+{
+  y++;
+}
+
+if(document.getElementById('popr5').checked)
+{
+  y++;
+}
+
+
+
+document.getElementById("mono").innerHTML="Suma:"+" " +y;
+  }
+
+var a= document.getElementById('odpo');
+var b= document.getElementById('odpo1');
+var c= document.getElementById('odpo2');
+var d= document.getElementById('odpo3');
+var e= document.getElementById('odpo4');
+const btn=document.getElementById('btn');
+const btn1=document.getElementById('btn1');
+const btn2=document.getElementById('btn2');
+const btn3=document.getElementById('btn3');
+const btn4=document.getElementById('btn4');
+function Check(){
+if (a.style.display ==="none"){
+  a.style.display="block";
+btn.textContent="HIDE";
+}
+else{
+  a.style.display="none";
+  btn.textContent="SHOW";
+}
+}
+function Check2(){
+if (b.style.display ==="none"){
+  b.style.display="block";
+btn1.textContent="HIDE";
+}
+else{
+ b.style.display="none";
+  btn1.textContent="SHOW";
+}
+}
+function Check3(){
+if (c.style.display ==="none"){
+  c.style.display="block";
+btn2.textContent="HIDE";
+}
+else{
+  c.style.display="none";
+  bt2n.textContent="SHOW";
+}
+}
+function Check4(){
+if (d.style.display ==="none"){
+  d.style.display="block";
+btn3.textContent="HIDE";
+}
+else{
+  d.style.display="none";
+  btn3.textContent="SHOW";
+}
+}
+function Check5(){
+if (e.style.display ==="none"){
+  e.style.display="block";
+btn4.textContent="HIDE";
+}
+else{
+ e.style.display="none";
+  btn4.textContent="SHOW";
+}
+window.scrollTo(0, document.body.scrollHeight);
+}
+
+
+    </script>
+
+  <body>
+   
+  
+  </body>
+</html>
